@@ -1,2 +1,2 @@
-# Prouct_Landing_Page
+# Product_Landing_Page
 FCC - Project Landing Page Project
