@@ -1,2 +1,2 @@
 # Product_Landing_Page
-FCC - Project Landing Page Project
+FCC - Responsive Web Design Projects
