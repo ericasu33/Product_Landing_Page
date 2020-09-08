@@ -179,7 +179,6 @@ header.scrollheader:after {
   }
 
 
-
 #header-img {
   width: 7rem;
   height: 100%;
@@ -254,7 +253,7 @@ button {
 }
 
 .page {
-  margin-left: 34rem;
+  text-align: center;
 }
 
 footer {
@@ -306,6 +305,10 @@ button:hover {
 @media screen and (max-width: 768px) {
   html {
     scroll-padding-top: 8.0325rem; /* height of sticky header */
+  }
+
+  body {
+    padding: 0;
   }
 
   header {
