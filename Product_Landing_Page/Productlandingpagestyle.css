@@ -11,8 +11,7 @@ body {
   position: relative;
   margin: 0 auto;
   color: rgba(51, 48, 47);
-  max-width: 75rem;
-  width: 100%;
+  padding: 0 10rem 0 10rem;
 }
 
 h1 {
@@ -156,16 +155,33 @@ h2 {
 header {
   position: fixed;
   top: 0;
-  max-width: 75rem;
+  left: 0;
+  padding: 1rem 10rem 1.3rem 10rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: #FFF;
+  /* rgb(255, 255, 255, 0.7)*/
 }
 
+header:after {
+}
+
+header.scrollheader:after {
+  content:"";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(202,202,202,0.8494748241093313) 0%, rgba(214,214,214,0.7486344879748774) 20%, rgba(232,232,232,0.7066176812521884) 41%, rgba(236,234,234,0.4125000341933649) 100%);
+  }
+
+
+
 #header-img {
-  width: 9.375rem;
+  width: 7rem;
   height: 100%;
   margin: 0 auto;
 }
@@ -193,7 +209,7 @@ nav li {
   justify-content: space-around;
   align-content: center;
   margin-top: 6.25rem;
-  background-color: rgb(237, 236, 232);
+  background-color: rgba(236,234,234,0.4125000341933649);
   padding: 6.25rem 3.125rem;
 }
 
